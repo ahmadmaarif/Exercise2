@@ -84,8 +84,22 @@ namespace Bubble_sort
             Console.WriteLine("\n|nTekan Tombol apa saja untuk Keluar.");
         }
     }
-    
+    class MergeSort
+    {
+        static public void MainMerge(int[] numbers, int left, int mid, int right)
+        {
+            int[] temp = new int[68];
+            int i, eol, num, pos;
+            eol = (mid - 1);
+            pos = left;
+            num = (right - left + 1);
+
+            
+        }
+    }
 }
+
+        
     
 
 
