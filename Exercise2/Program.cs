@@ -39,7 +39,7 @@ namespace Bubble_sort
             }
         }
         public void display()
-            {
+        {
             //Menampilkan array yang tersusun 
             Console.WriteLine("________________________________");
             Console.WriteLine(" Element array yang teleh tersusun ");
@@ -51,8 +51,21 @@ namespace Bubble_sort
             Console.WriteLine("");
             Console.ReadKey();
         }
+        public void BubbleSortArray()
+        {
+            for (int j = 1; j < n; j++) // for n - 1 passes
+            {
+                // Pada pass j, bandingkan n - 1 elemen pertama dengan elemen selanjutnya
+                for (int ah = 0; ah < n - 1; ah++)
+                {
+                    if (a[ah] > a[ah + 1]) // Jika Elemen tidak dalam urutan yang benar
+                    
+                }
+            }
+        }
     }
 }
+    
 
 
 
