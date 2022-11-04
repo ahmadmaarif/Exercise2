@@ -59,7 +59,13 @@ namespace Bubble_sort
                 for (int ah = 0; ah < n - 1; ah++)
                 {
                     if (a[ah] > a[ah + 1]) // Jika Elemen tidak dalam urutan yang benar
-                    
+                    {
+                        // tukar element
+                        int temp;
+                        temp = a[ah];
+                        a[ah] = a[ah + 1];
+                        a[ah + 1] = temp;
+                    }
                 }
             }
         }
