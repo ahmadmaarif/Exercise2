@@ -31,11 +31,11 @@ namespace Bubble_sort
             Console.WriteLine("_____________________");
 
             // Pengguna memasukkan elemen pada array
-            for (int j = 0; j < n; j++)
+            for (int AM = 0; AM < n; AM++)
             {
-                Console.WriteLine("<" + (j + 1) + ">");
+                Console.WriteLine("<" + (AM + 1) + ">");
                 string s1 = Console.ReadLine();
-                a[j] = Int32.Parse(s1);
+                a[AM] = Int32.Parse(s1);
             }
         }
         public void display()
@@ -53,7 +53,7 @@ namespace Bubble_sort
         }
         public void BubbleSortArray()
         {
-            for (int j = 1; j < n; j++) // for n - 1 passes
+            for (int AM = 1; AM < n; AM++) // for n - 1 passes
             {
                 // Pada pass j, bandingkan n - 1 elemen pertama dengan elemen selanjutnya
                 for (int ah = 0; ah < n - 1; ah++)
@@ -84,6 +84,7 @@ namespace Bubble_sort
             Console.WriteLine("\n|nTekan Tombol apa saja untuk Keluar.");
         }
     }
+    
 }
     
 
