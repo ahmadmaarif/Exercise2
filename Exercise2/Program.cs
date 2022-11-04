@@ -38,13 +38,25 @@ namespace Bubble_sort
                 a[j] = Int32.Parse(s1);
             }
         }
-
+        public void display()
+            {
+            //Menampilkan array yang tersusun 
+            Console.WriteLine("________________________________");
+            Console.WriteLine(" Element array yang teleh tersusun ");
+            Console.WriteLine("________________________________");
+            for (int ah = 0; ah < n; ah++)
+            {
+                Console.WriteLine(a[ah]);
+            }
+            Console.WriteLine("");
+            Console.ReadKey();
+        }
     }
 }
 
-            
 
-            
 
-        
-    
+
+
+
+
